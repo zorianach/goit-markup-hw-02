@@ -5,7 +5,8 @@
   --primary-brand-color: #4d5ae5;
   --white-background-color: #ffffff;
   --pressed-state-color: #404bbf;
-  --cloud-color: #f4f4fd;
+  --cloud-light-color: #f4f4fd;
+  --cornflower-accent-color: #e7e9fc;
 }
 
 body {
@@ -56,18 +57,11 @@ a {
   color: var(--dark-color);
 }
 
-.header-item :hover,
-.header-item :focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--pressed-state-color);
 }
-.address-list {
-}
-
 .address-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-text-color);
 }
 .address-link {
   font-size: 16px;
@@ -76,8 +70,8 @@ a {
   color: var(--body-text-color);
 }
 
-.address-item :hover,
-.address-item :focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--pressed-state-color);
 }
 /**
@@ -106,9 +100,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
-  background: var(--primary-brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background-color: var(--primary-brand-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
 }
 
 /**
@@ -167,6 +163,7 @@ a {
   |============================
 */
 .section-team {
+  background-color: var(--cloud-light-color);
 }
 .team-title {
   font-weight: 700;
@@ -223,5 +220,51 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud-color);
+  color: var(--cloud-light-color);
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+.portfolio-filter {
+}
+.filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.filter-button {
+  cursor: pointer;
+  color: var(--primary-brand-color);
+  background-color: var(--cloud-light-color);
+  border: 1px solid var(--cornflower-accent-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+}
+
+.portfolio-galery {
+}
+.project-link {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.portfolio-item-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
