@@ -218,7 +218,7 @@ body {
   color: var(--primary-brand-color);
 }
 .footer-logo-white {
-  color: var(--white-background-color);
+  color: var(--cloud-light-color);
 }
 .footer-slogan {
   font-size: 16px;
