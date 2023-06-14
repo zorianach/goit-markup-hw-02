@@ -15,7 +15,7 @@ body {
   background-color: var(--white-background-color);
 }
 
-a {
+.link {
   text-decoration: none;
   font-style: normal;
 }
@@ -36,7 +36,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
@@ -60,6 +60,9 @@ a {
 .header-link:hover,
 .header-link:focus {
   color: var(--pressed-state-color);
+}
+.address {
+  font-style: normal;
 }
 .address-item {
 }
@@ -177,6 +180,7 @@ a {
 .team-list {
 }
 .team-member {
+  background-color: var(--white-background-color);
 }
 .team-img {
 }
@@ -208,13 +212,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-background-color);
-}
-.footer-logo-blue {
   color: var(--primary-brand-color);
+}
+.footer-logo-white {
+  color: var(--white-background-color);
 }
 .footer-slogan {
   font-size: 16px;
@@ -231,12 +235,12 @@ a {
 .portfolio-filter {
 }
 .filter-item {
+}
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-.filter-button {
   cursor: pointer;
   color: var(--primary-brand-color);
   background-color: var(--cloud-light-color);
